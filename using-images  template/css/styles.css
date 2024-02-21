@@ -1,5 +1,12 @@
 /* Global styling for the body element */
 body {
+    background-color: black;
+    color: ivory;
+    font-size: large;
+    background-image:url("../images/aurora-borealis.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     /* Add styles here to affect the entire page */
 }
 
@@ -10,7 +17,7 @@ header {
     /* Sets the width to 80% of the parent container */
     margin: 20px auto;
     /* Centers the element horizontally and adds 20px margin to the top and bottom */
-    border: 3px solid gold;
+    border: 3px solid rgb(0, 166, 255);
     /* Sets a 3px solid gold border */
     background: rgba(0, 0, 0, .7);
     /* Sets a semi-transparent black background */
@@ -19,6 +26,7 @@ header {
 /* Specific styling for all div elements, setting a minimum height */
 div {
     min-height: 250px;
+    overflow:auto;
     /* Ensures the div is at least 250px tall */
 }
 
@@ -33,6 +41,10 @@ h2 {
 
 /* Placeholder for the background styling, add your specific styles here */
 #background {
+    background-image:url("../images/cat.jpg");
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
     /* Add background-specific styles here */
 }
 
@@ -42,12 +54,14 @@ h2 {
 }
 
 /* Placeholder for floating left, add your specific styles here */
-#float-left {
+#float-left img{
+    float: left;
     /* Add floating left-specific styles here */
 }
 
 /* Placeholder for floating right, add your specific styles here */
 #float-right {
+    float: right;
     /* Add floating right-specific styles here */
 }
 
@@ -58,10 +72,18 @@ h2 {
 
 /* Placeholder for linked image, add your specific styles here */
 #linked-image {
+    width: 50%;
+    display: block;
+    margin: 10px auto;
     /* Add linked image-specific styles here */
 }
 
 /* Placeholder for image as a link, add your specific styles here */
 #img-as-link {
     /* Add image as link-specific styles here */
+}
+
+img{
+    padding: 20px;
+    width: 50%
 }
