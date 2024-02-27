@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(77,31,31);
+}
+
+.container{
+    background: ivory;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+h1, h2, h3{
+    text-align: center;
+    color: green;
+}
+
+ul{
+    ul{
+        content: "\1F338";
+    }
+}
+
+dt{
+    font-weight: bold;
+    color: purple;
+}
