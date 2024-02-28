@@ -1,6 +1,16 @@
 body{
     background: ivory;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+h1{
+    text-align: center;
+    color: green;
+}
+
+h2{
+    color: green;
 }
 
 .container{
@@ -35,4 +45,14 @@ nav a:hover{
 
 ul li{
     list-style-type: none;
+    line-height: 2;
+}
+
+ul li a{
+    text-decoration: none;
+    color: blue;
+}
+
+ul li a:hover{
+    text-decoration: underline;
 }
