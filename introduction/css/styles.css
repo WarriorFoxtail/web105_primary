@@ -1,0 +1,45 @@
+body{
+    background-color: aquamarine;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+img{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    margin: auto;
+}
+
+nav{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 2;
+}
+
+nav a{
+    background-color: honeydew;
+    padding: 10px;
+    color: black;
+    border: 2px solid honeydew;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: black;
+    background-color: aquamarine;
+}
