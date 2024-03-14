@@ -1,7 +1,17 @@
 body{
-    background-color: aquamarine;
+    background-color: rgb(164, 255, 225);
     color: black;
     font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+p{
+    text-align: center;
+    padding-left: 50px;
+}
+
+.container{
+    
 }
 
 h1{
@@ -31,10 +41,10 @@ nav{
 }
 
 nav a{
-    background-color: honeydew;
+    background-color: mintcream;
     padding: 10px;
     color: black;
-    border: 2px solid honeydew;
+    border: 2px solid mintcream;
     border-radius: 4px;
     text-decoration: none;
 }
