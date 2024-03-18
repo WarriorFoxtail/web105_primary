@@ -3,6 +3,7 @@ body{
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
+    text-align: center;
 }
 
 p{
@@ -10,8 +11,17 @@ p{
     padding-left: 50px;
 }
 
-.container{
-    
+div{
+    width: 49%;
+    display: inline-block;
+    padding: 0px;
+}
+
+ul{
+    list-style-type: circle;
+    width: 30%;
+    margin: 10px auto;
+    overflow: auto;
 }
 
 h1{
@@ -27,10 +37,11 @@ h3{
 }
 
 img{
-    width: 20%;
+    width: 60%;
     height: auto;
-    display: inline-block;
-    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav{
